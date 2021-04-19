@@ -15,14 +15,14 @@ let trainButton;
 
 function modelReady() {
   console.log('Model is ready!!!');
-  // classifier.load('model.json', customModelReady);
+  classifier.load('/model.json', customModelReady);
 }
 
-// function customModelReady() {
-//   console.log('Custom Model is ready!!!');
-//   label = 'model ready';
-//   classifier.classify(gotResults);
-// }
+function customModelReady() {
+console.log('Custom Model is ready!!!');
+label = 'model ready';
+classifier.classify(gotResults);
+ }
 
 function videoReady() {
   console.log('Video is ready!!!');
