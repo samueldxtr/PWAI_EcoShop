@@ -1,2 +1,2 @@
-# pwai_ecoshop_test
+# pwai_ecoshop
 test
